@@ -1,13 +1,69 @@
 body {
+  background-color: #0a7c56;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  padding: 15px 0;
+  background-color: #69a56b;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 50px 0 200px;
+  font-weight: 700;
+}
+
+.box {
+  background-color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 100px;
+}
+
+.text {
+  font-size: 35px;
+  margin: 0 0 30px;
+}
+
+.box-select {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.select {
+  padding: 20px;
+  border-color: #375137f0;
+  background-color: #cbe8cb;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.text-select {
+  font-size: 35px;
+  margin: 0;
+}
+
+.input-box {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.input-text {
+  font-size: 22px;
+  margin: 0 0 20px;
+}
+
+.input {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background-color: #cbe8cb;
+  border-color: #375137f0;
 }
